@@ -42,3 +42,7 @@ typechain
 #Hardhat files
 cache
 artifacts
+
+
+# private keys
+.secret
