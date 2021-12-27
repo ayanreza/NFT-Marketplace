@@ -41,6 +41,10 @@ contract NFTMarket is ReentrancyGuard {
         address owner,
         bool sold
     );
+
+    function getListingPrice() public view returns (uint256) {
+        return listingPrice;
+  }
     // creates items for sale to put in marketplace
     function createMarketItem(
         address nftContract, 
