@@ -9,11 +9,11 @@ module.exports = {
       chainId: 1337
     },
     mumbai: {
-      url: "https://polygon-mumbai.infura.io/v3/66587161cab34a6e8b47ab94d223a228",
+      url: "https://polygon-mumbai.infura.io/v3/${projectId}",
       accounts: [privateKey]
     },
     mainnet: {
-      url: "https://mainnet.infura.io/v3/66587161cab34a6e8b47ab94d223a228",
+      url: "https://mainnet.infura.io/v3/${projectID}",
       accounts: [privateKey]
     }
   },
